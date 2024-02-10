@@ -48,15 +48,15 @@ on:
         type: string
     secrets:
       EX_CONNECTED_APP_ID:
-        required: true
+        required: false
       EX_CONNECTED_APP_SECRET:
-        required: true
+        required: false
       CH_CONNECTED_APP_ID:
         required: true
       CH_CONNECTED_APP_SECRET:
         required: true
       SECURE_ENCRYPT_KEY:
-        required: true
+        required: false
       MULE_AP_CLIENT_ID:
         required: true
       MULE_AP_CLIENT_SECRET:
